@@ -1,0 +1,42 @@
+/* Home.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%; /* Takes up the left half of the screen */
+    background-color: #1f1f1f;
+    color: #00ff00;
+    font-size: 20px;
+  }
+  
+  .text-section h1 {
+    margin-bottom: 20px;
+  }
+  
+  .typewriter-text {
+    margin-bottom: 10px;
+  }
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
