@@ -1,0 +1,95 @@
+/* Navbar.css */
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 2;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.menu-open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(240, 240, 240, 0.9);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+  }
+  
+  .close-button {
+    cursor: pointer;
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    left: 10px; /* Update left position to place it in the top left corner */
+    color: black; /* Set initial color to black */
+    z-index: 2; /* Make sure the close button appears on top of the menu */
+    transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
+  }
+  
+  .close-button:hover {
+    color: white; /* Change color on hover */
+    transform: scale(1.1); /* Add a subtle pop effect on hover */
+  }
+  
+  .menu li {
+    margin: 15px 0; /* Increase margin for more spacing */
+    font-size: 28px; /* Set the font size for the menu options */
+    transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
+  }
+  
+  .menu li:hover {
+    color: white; /* Change color on hover */
+    transform: scale(1.1); /* Add a subtle pop effect on hover */
+  }
+  
+  /* Remove hyperlink styling */
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+  
+  /* Media query for smaller screens where the menu should be hidden */
+  @media only screen and (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    ul.menu-open {
+      display: flex; /* Add this line to override the display property */
+    }
+  }
+  
+  
+  
+  
