@@ -15,8 +15,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 50%; /* Takes up the left half of the screen */
-    background-color: #1f1f1f;
+    width: 50%; /* left half of the screen */
+    background: transparent; /* Set background to transparent */
     color: #00ff00;
     font-size: 20px;
   }

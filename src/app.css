@@ -1,0 +1,13 @@
+
+.App {
+  overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+}
+
+.overlay {
+  height: 100vh;
+  overflow-y: auto; /* Enable vertical scrolling for content overflow */
+}
+
+.content {
+  padding: 20px; /* Adjust padding   */
+}
