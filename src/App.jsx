@@ -1,15 +1,13 @@
-import React from 'react'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
+import React from "react";
+import Background from "./components/background.jsx";
 
-function App() {
+
+export const App = () => {
   return (
-    <div>
-      <Navbar></Navbar>
-      <Header></Header>
+    <div className="App">
+      <Background />
     </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
