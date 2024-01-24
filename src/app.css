@@ -1,7 +1,16 @@
 
 .App {
   overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+    font-family: 'FIreCode', sans-serif;
+
+
+
 }
+
+.ParticlesContainer {
+  z-index: 0; 
+}
+
 
 .overlay {
   height: 100vh;
@@ -10,4 +19,40 @@
 
 .content {
   padding: 20px; /* Adjust padding   */
+}
+.App {
+  position: relative;
+}
+
+.ContentWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* content is above the particles */
+}
+.App {
+  position: relative;
+}
+
+.ContentWrapper {
+  position: relative; 
+  z-index: 1; 
+}
+
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; 
+}
+
+
+@media screen and (min-width: 768px) {
+    .app {
+        font-family: 'Fira Code', sans-serif;
+    }
 }

@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
     <div className="text-section">
-           <h1>Hi, I'm Spencer Henegar 👋🏻</h1>
+           <h1>Hi, I'm Spencer Henegar</h1>
 
       <p>{typewriterText}</p>
     </div>

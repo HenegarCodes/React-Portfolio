@@ -22,7 +22,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(240, 240, 240, 0.9);
+    background-color: black;
     width: 100%;
     height: 100vh;
     z-index: 1;
@@ -32,6 +32,8 @@
   
   li {
     margin: 10px 0;
+    color: white;
+
   }
   
   .hamburger {
@@ -59,13 +61,13 @@
     position: fixed;
     top: 10px;
     left: 10px; /* Update left position to place it in the top left corner */
-    color: black; /* Set initial color to black */
+    color: white; /* Set initial color to black */
     z-index: 2; /* Make sure the close button appears on top of the menu */
     transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
   }
   
   .close-button:hover {
-    color: white; /* Change color on hover */
+    color: #00ff00; /* Change color on hover */
     transform: scale(1.1); /* Add a subtle pop effect on hover */
   }
   
@@ -76,7 +78,7 @@
   }
   
   .menu li:hover {
-    color: white; /* Change color on hover */
+    color: #00ff00; /* Change color on hover */
     transform: scale(1.1); /* Add a subtle pop effect on hover */
   }
   

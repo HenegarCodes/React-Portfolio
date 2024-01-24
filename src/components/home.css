@@ -1,42 +1,33 @@
-/* Home.css */
+
+
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .text-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 50%; /* left half of the screen */
-    background: transparent; /* Set background to transparent */
-    color: #00ff00;
-    font-size: 20px;
-  }
-  
-  .text-section h1 {
-    margin-bottom: 20px;
-  }
-  
-  .typewriter-text {
-    margin-bottom: 10px;
-  }
-  .image-section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .image-section img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* need to change*/
+}
+
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%; /* left half of the screen */
+  background: transparent; /* Set background to transparent */
+  color: #FF0000;
+  font-size: 20px;
+  position: relative; 
+  z-index: 2; 
+}
+
+.text-section h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.typewriter-text {
+  margin-bottom: 10px;
+}
+
+
+
