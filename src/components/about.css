@@ -1,20 +1,18 @@
-.about-section{
-    color: white;
-    width: 45%;
-}
-
-body {
+.container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-    color: white;
+    height: 100vh; /* Set the height of the container to full viewport height */
   }
-
-
-  .profile-picture {
-    width: 100px; /* Adjust the size as needed */
-    height: 100px; /* Adjust the size as needed */
-    border-radius: 50%;
-    margin-bottom: 10px;
+  
+  .left-section {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-start; /* Align content to the left horizontally */
+    align-items: flex-start; /* Align content to the top vertically */
+    padding-left: 10%; 
+    padding-top: 10%; 
+  }
+  
+  .left-section h2 {
+    color: white; 
+    font-size: 2rem; 
   }
