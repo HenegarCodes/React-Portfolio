@@ -8,7 +8,7 @@ import Home from './components/Home.jsx';
 import Projects from './components/Projects.jsx';
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
-import "./App.css"; 
+import { Socialicons } from './components/Social.jsx';import "./App.css"; 
 
 const App = () => {
   const [init, setInit] = useState(false);
@@ -109,12 +109,13 @@ const App = () => {
       )}
 
       <div className="ContentWrapper">
-        {/*  content components */}
+        
         <Home />
         <Navbar />
         <Projects />
         <About />
         <Contact />
+        <Socialicons /> 
       </div>
     </div>
   );
