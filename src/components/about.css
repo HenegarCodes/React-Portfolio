@@ -1,18 +1,11 @@
-.container {
-    display: flex;
-    height: 100vh; /* Set the height of the container to full viewport height */
-  }
-  
-  .left-section {
-    flex: 1; 
-    display: flex;
-    justify-content: flex-start; /* Align content to the left horizontally */
-    align-items: flex-start; /* Align content to the top vertically */
-    padding-left: 10%; 
-    padding-top: 10%; 
-  }
-  
-  .left-section h2 {
-    color: white; 
-    font-size: 2rem; 
-  }
+.about-container {
+  background-color: #f8f9fa; /* Example background color */
+  padding: 20px;
+}
+
+.about-content {
+  max-width: 600px; /* Adjust max-width as needed */
+  margin-left: auto; /* Align content to the left */
+  margin-right: auto; /* Align content to the left */
+  text-align: left; /* Align text to the left */
+}

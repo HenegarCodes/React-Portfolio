@@ -1,23 +1,24 @@
-
-
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif; /* need to change*/
+  font-family: 'Arial', sans-serif;
 }
 
+.home-container {
+  display: flex;
+  height: 100vh;
+}
 
 .text-section {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 50%; /* left half of the screen */
-  background: transparent; /* Set background to transparent */
+  background: transparent;
   color: #FF0000;
   font-size: 20px;
-  position: relative; 
-  z-index: 2; 
+  position: relative;
+  z-index: 2;
 }
 
 .text-section h1 {
@@ -25,9 +26,14 @@ body {
   color: white;
 }
 
-.typewriter-text {
-  margin-bottom: 10px;
+.image-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}

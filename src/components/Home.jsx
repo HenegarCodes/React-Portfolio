@@ -50,12 +50,15 @@ const Home = () => {
   const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
   return (
-    <div className="text-section">
-           <h1>Hi, I'm Spencer Henegar</h1>
-
-      <p>{typewriterText}</p>
+    <div className="home-container">
+      <div className="text-section">
+        <h1>Hi, I'm Spencer Henegar</h1>
+        <p>{typewriterText}</p>
+      </div>
+      <div className="image-section">
+        <img src="/CustomPic.jpg" alt="Profile Picture" />
+      </div>
     </div>
   );
 };
-
 export default Home;

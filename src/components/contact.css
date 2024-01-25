@@ -1,0 +1,50 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex; /* Use flex to arrange elements in a row */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+}
+
+.input-group input,
+.input-group textarea {
+  flex: 1; /* Allow the input and textarea to take remaining space */
+  margin-right: 10px; /* Add some spacing between inputs */
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.error-message {
+  color: red;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
