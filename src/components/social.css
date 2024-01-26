@@ -21,7 +21,6 @@ a {
 .sidebarsvg {
     width: 1.3em;
     height: 1.3em;
-
     color: white;
 }
 
@@ -60,9 +59,9 @@ a {
 
 @media only screen and (max-width: 991px) {
     .sidebar {
-        width: unset;
-        height: unset;
-        position: static;
+        width: 100%; 
+        height: auto; 
+        position: static; 
         margin-top: unset;
         display: flex;
         flex-direction: row-reverse;

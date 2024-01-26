@@ -6,10 +6,10 @@ import {
   FaStackOverflow
 
 } from "react-icons/fa";
-import { IoIosDocument } from "react-icons/io";
-import { socialLinks } from "../../contentInfo";
+import { IoIosDocument } from 'react-icons/io';
+import { resumeP, socialLinks } from "../../contentInfo";
 
-export const Socialicons = (params) => {
+export const Socialicons  = (params) => {
   return (
     <div className="sidebar">
       <ul>
@@ -34,13 +34,14 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialLinks.resume && (
-          <li>
-            <a href={socialLinks.resume}>
-              <IoIosDocument />
-            </a>
-          </li>
-        )}
+{resumeP.resume && (
+  <li>
+    <a href={resumeP.resume}>
+      <IoIosDocument />
+    </a>
+  </li>
+
+)}
       </ul>
 
       <p>Connect With Me!</p>

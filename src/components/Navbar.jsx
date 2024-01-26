@@ -31,7 +31,7 @@ const Navbar = () => {
                         <li><a href="#About" onClick={closeMenu}><FontAwesomeIcon icon={faUser} /></a></li>
                         <li><a href="#Contact" onClick={closeMenu}><FontAwesomeIcon icon={faAddressCard} /></a></li>
                         <li>
-                            <a href="#" onClick={closeMenu}>
+                            <a href="/Resume.pdf" onClick={closeMenu}>
                                 <IoIosDocument />
                             </a>
                         </li>
