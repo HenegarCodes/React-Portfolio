@@ -1,11 +1,34 @@
-.about-container {
-  background-color: #f8f9fa; /* Example background color */
-  padding: 20px;
+#about-me {
+  margin: 0; 
+  padding-top: 10px; /* Adjust as needed */
+  color: white;
+  text-align: center; 
 }
 
-.about-content {
-  max-width: 600px; /* Adjust max-width as needed */
-  margin-left: auto; /* Align content to the left */
-  margin-right: auto; /* Align content to the left */
-  text-align: left; /* Align text to the left */
+#texty {
+  width: 40%;
+  margin: 20px auto; /* Center the element horizontally */
+  text-align: center; /* Center text horizontally */
+  padding-top: 15px;
+}
+#profile-picture {
+  padding-top: 5px;
+  width: 40%; 
+  margin: 20px auto; 
+  display: flex;
+  justify-content: center;
+}
+
+#profile-picture img {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  zoom: 80%;
+
+
+
+}
+
+#para{
+  font-size: large;
 }

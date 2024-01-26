@@ -7,7 +7,16 @@ import './Home.css';
 const Home = () => {
   const [typewriterText, setTypewriterText] = useState("");
   const [phraseIndex, setPhraseIndex] = useState(0);
-  const phrases = ["Software Engineer", "Debugger", "Daily Developer", "Problem Creator & Solver"];
+  const phrases = [  
+  "Software Engineer",
+  "Debugger",
+  "Daily Developer",
+  "Problem Creator & Solver",
+  "Tech Enthusiast",
+  "Creative Coder",
+  "User Experience Designer",
+  "Backend Developer",
+  "Frontend Wizard",];
   const typeSpeed = 100; // Speed of typing (milliseconds per character)
   const pauseBeforeType = 3000; // Pause before typing the next phrase (milliseconds)
   const pauseAfterType = 3000; // Pause after typing a phrase (milliseconds)
@@ -50,10 +59,10 @@ const Home = () => {
   const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
   return (
-    <div className="home-container">
+    <div className="home-container" id="Home">
       <div className="text-section">
         <h1>Hi, I'm Spencer Henegar</h1>
-        <p>{typewriterText}</p>
+        <p id="typewrite">{typewriterText}</p>
       </div>
       <div className="image-section">
         <img src="/CustomPic.jpg" alt="Profile Picture" />

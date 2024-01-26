@@ -46,7 +46,7 @@ const App = () => {
         },
         modes: {
           push: {
-            quantity: 8,
+            quantity: 9,
           },
           repulse: {
             distance: 200,
@@ -63,7 +63,7 @@ const App = () => {
           distance: 150,
           enable: true,
           opacity: 0.6,
-          width: 1,
+          width: 2,
         },
         move: {
           direction: "none",
@@ -88,7 +88,7 @@ const App = () => {
           type: "star",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 2, max: 6 },
         },
       },
       detectRetina: true,

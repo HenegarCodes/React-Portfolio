@@ -45,36 +45,36 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    top: 5px; /* Adjust the top property to move it closer to the top */
+    top: 5px; 
   }
   
   .hamburger:before,
   .hamburger:after {
     content: '';
     width: 30px; /* Set width for the lines */
-    height: 0; /* Set height to 0 to remove lines */
-    background-color: transparent; /* Set background-color to transparent */
+    height: 0; 
+    background-color: transparent; 
   }
   .close-button {
     cursor: pointer;
     font-size: 20px;
     position: fixed;
     top: 10px;
-    left: 10px; /* Update left position to place it in the top left corner */
-    color: white; /* Set initial color to black */
-    z-index: 2; /* Make sure the close button appears on top of the menu */
+    left: 10px; 
+    color: white; 
+    z-index: 2; /*close button appears on top of the menu */
     transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
   }
   
   .close-button:hover {
-    color: #00ff00; /* Change color on hover */
-    transform: scale(1.1); /* Add a subtle pop effect on hover */
+    
+    transform: scale(1.1); /* subtle pop effect on hover */
   }
   
   .menu li {
-    margin: 15px 0; /* Increase margin for more spacing */
-    font-size: 28px; /* Set the font size for the menu options */
-    transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
+    margin: 15px 0; 
+    font-size: 28px; 
+    transition: color 0.3s, transform 0.3s; 
   }
   
   .menu li:hover {
@@ -89,13 +89,14 @@
     font-size: 24px;
   }
   
+  
   /* Media query for smaller screens where the menu should be hidden */
   @media only screen and (max-width: 768px) {
     .hamburger {
       display: block;
     }
     ul.menu-open {
-      display: flex; /* Add this line to override the display property */
+      display: flex; /*  override the display property */
     }
   }
   

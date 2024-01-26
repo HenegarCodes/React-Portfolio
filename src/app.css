@@ -1,8 +1,13 @@
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
 .App {
   overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
-    font-family: 'FIreCode', sans-serif;
-
+    font-family:  "Roboto","sans-serif" ;
 
 
 }
@@ -18,7 +23,7 @@
 }
 
 .content {
-  padding: 20px; /* Adjust padding   */
+  padding: 20px; 
 }
 .App {
   position: relative;

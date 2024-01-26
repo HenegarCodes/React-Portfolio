@@ -4,7 +4,7 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="Projects">
       <div className="project-card">
         <img src="/BudgetBuddy.jpg" alt="Project 1" />
         <h2>Budget Buddy</h2>
@@ -61,7 +61,7 @@ Workday Scheduler allows you to easily note and schedule your daily tasks. Using
 
       <div className="project-card">
         <img src="/RPS.jpg" alt="Project 6" />
-        <h2>Rock, Paper, Scizzors</h2>
+        <h2>Rock, Paper, Scissors</h2>
         <p>Rock, Paper, Scissors scores the classic game between the user and computer, adding an element of surprise with a random picker.</p>
         <div className="project-buttons">
           <a href="https://github.com/HenegarCodes/RockPaperScissors" className="github-button">GitHub</a>

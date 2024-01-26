@@ -32,7 +32,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    
+    <div className="contact-container" id="Contact">
+      <br />
+<h2 id="contact-me" className="bib">Lets Connect!</h2>
+<br />
       <form className="contact-form" onSubmit={handleFormSubmit}>
         <div className="form-group">
           <div className="input-group">
@@ -59,11 +63,13 @@ const Contact = () => {
           {emailError && <p className="error-message">{emailError}</p>}
         </div>
         <div className="form-group">
+          <div className="txtA">
           <textarea
             placeholder="Type your message here"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
+          </div>
         </div>
         <div className="form-group">
           <button type="submit">Submit</button>
