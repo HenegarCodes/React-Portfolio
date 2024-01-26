@@ -17,7 +17,7 @@ Welcome to my Portfolio. As you probably have learned my name is Spencer Henegar
 No install for the portfolio. However, if you want to install any of the projects in there please visit the Github link on the project and follow those instructions.
 ## Usage
 https://spencer-henegar.netlify.app/
-
+![image](https://github.com/HenegarCodes/React-Portfolio/assets/78831747/cbd9c754-5cc1-4a03-a09d-1e30afbfccce)
 
 
 ## Credits
