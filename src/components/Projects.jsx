@@ -1,6 +1,6 @@
 
 import React from "react";
-import './Projects.css';
+import './projects.css';
 
 const Projects = () => {
   return (
@@ -9,7 +9,7 @@ const Projects = () => {
         <img src="/BudgetBuddy.jpg" alt="Project 1" />
         <h2>Budget Buddy</h2>
         <p>
-Budget Buddy empowers users to seamlessly track their finances and pursue their goals with precision. Unleash the power of accurate tracking for achieving your financial milestones.</p>
+          Budget Buddy empowers users to seamlessly track their finances and pursue their goals with precision. Unleash the power of accurate tracking for achieving your financial milestones.</p>
         <div className="project-buttons">
           <a href="https://github.com/HenegarCodes/budget-tracker-team-5" className="github-button">GitHub</a>
           <a href="https://app-budget-buddy-17170e451f60.herokuapp.com/" className="deployed-button">Deployed</a>
@@ -20,7 +20,7 @@ Budget Buddy empowers users to seamlessly track their finances and pursue their 
         <img src="/PasswordGenerator.jpg" alt="Project 2" />
         <h2>Password Generator</h2>
         <p>
-Password Generator enables users to quickly create unique and secure passwords with various customization options, ensuring a straightforward and secure password creation process. </p>
+          Password Generator enables users to quickly create unique and secure passwords with various customization options, ensuring a straightforward and secure password creation process. </p>
         <div className="project-buttons">
           <a href="https://github.com/HenegarCodes/passwordGenerator" className="github-button">GitHub</a>
           <a href="https://henegarcodes.github.io/passwordGenerator/" className="deployed-button">Deployed</a>
@@ -31,14 +31,14 @@ Password Generator enables users to quickly create unique and secure passwords w
         <img src="/WorkdayScheduler.jpg" alt="Project 3" />
         <h2>Workday Scheduler</h2>
         <p>
-Workday Scheduler allows you to easily note and schedule your daily tasks. Using Dayjs, it ensures continuous visualization of past and current time blocks for a seamless scheduling experience.</p>
+          Workday Scheduler allows you to easily note and schedule your daily tasks. Using Dayjs, it ensures continuous visualization of past and current time blocks for a seamless scheduling experience.</p>
         <div className="project-buttons">
           <a href="https://github.com/HenegarCodes/Workday-Scheduler" className="github-button">GitHub</a>
           <a href="https://henegarcodes.github.io/Workday-Scheduler/" className="deployed-button">Deployed</a>
         </div>
       </div>
 
-      
+
       <div className="project-card">
         <img src="/JungleMap.jpg" alt="Project 4" />
         <h2>Jungle Map</h2>

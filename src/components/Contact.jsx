@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Contact.css';
+import './contact.css';
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -32,15 +32,15 @@ const Contact = () => {
   };
 
   return (
-    
+
     <div className="contact-container" id="Contact">
       <br />
-<h2 id="contact-me" className="bib">Lets Connect!</h2>
-<br />
+      <h2 id="contact-me" className="bib">Lets Connect!</h2>
+      <br />
       <form className="contact-form" onSubmit={handleFormSubmit}>
         <div className="form-group">
           <div className="input-group">
-           
+
             <input
               type="text"
               placeholder="Enter your name"
@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
         <div className="form-group">
           <div className="input-group">
-    
+
             <input
               type="email"
               placeholder="Enter your email"
@@ -64,11 +64,11 @@ const Contact = () => {
         </div>
         <div className="form-group">
           <div className="txtA">
-          <textarea
-            placeholder="Type your message here"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          />
+            <textarea
+              placeholder="Type your message here"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+            />
           </div>
         </div>
         <div className="form-group">

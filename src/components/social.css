@@ -7,7 +7,8 @@
     margin-top: -100px;
     color: white;
 }
-a{
+
+a {
     color: white;
 }
 
@@ -69,6 +70,7 @@ a{
         padding: 40px 0;
         align-items: center;
     }
+
     .sidebar p {
         top: unset;
         left: unset;
@@ -80,9 +82,11 @@ a{
         font-size: 17px;
         margin-right: 65px;
     }
+
     .sidebar ul {
         margin-bottom: 20px;
     }
+
     .sidebar ul li {
         display: inline;
         margin-bottom: 29px;

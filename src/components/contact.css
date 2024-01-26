@@ -1,32 +1,38 @@
 .contact-container {
   padding: 50px;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  flex-direction: column; /*content in a column */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*content in a column */
 }
 
 #contact-me {
-  margin: 0; 
+  margin: 0;
   color: white;
 }
 
 .contact-form {
-  width: 50%; 
-  text-align: center; 
-  margin-top: 20px; 
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .contact-form textarea {
-  resize: none; /* Prevent resizing of the textarea */
-  padding: 10px; /* Match padding with other inputs */
+  resize: none;
+  /* Prevent resizing of the textarea */
+  padding: 10px;
+  /* Match padding with other inputs */
   border: 1px solid #ced4da;
   border-radius: 5px;
   margin-top: 5px;
-  width: calc(100% - 22px); /* Set the width to match other input boxes */
-  max-width: calc(100% - 22px); /* Set the maximum width to match other input boxes */
-  height: 120px; 
+  width: calc(100% - 22px);
+  /* Set the width to match other input boxes */
+  max-width: calc(100% - 22px);
+  /* Set the maximum width to match other input boxes */
+  height: 120px;
 }
+
 .form-group {
   margin-bottom: 20px;
 }
@@ -66,8 +72,7 @@ button:hover {
 
 
 .contact-heading {
-  width: 45%; 
-  text-align: left; 
-  padding-left: 20px; 
+  width: 45%;
+  text-align: left;
+  padding-left: 20px;
 }
-

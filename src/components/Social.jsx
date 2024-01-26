@@ -34,7 +34,7 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-                {socialLinks.resume && (
+        {socialLinks.resume && (
           <li>
             <a href={socialLinks.resume}>
               <IoIosDocument />
