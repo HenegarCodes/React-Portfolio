@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
-import './Home.css';
+import './home.css';
 
 const Home = () => {
   const [typewriterText, setTypewriterText] = useState("");
