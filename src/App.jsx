@@ -9,7 +9,7 @@ import Projects from './components/Projects.jsx';
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import { Socialicons } from './components/Social.jsx';
-import "./App.css"; 
+import "./components/app.css"; 
 
 const App = () => {
   const [init, setInit] = useState(false);
