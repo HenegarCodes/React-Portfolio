@@ -78,7 +78,7 @@
   }
   
   .menu li:hover {
-    color: #00ff00; /* Change color on hover */
+    color: #00ff00; 
     transform: scale(1.1); /* Add a subtle pop effect on hover */
   }
   

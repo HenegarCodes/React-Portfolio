@@ -4,12 +4,14 @@ import {
   FaGithub,
   FaLinkedin,
   FaStackOverflow
+
 } from "react-icons/fa";
+import { IoIosDocument } from "react-icons/io";
 import { socialLinks } from "../../contentInfo";
 
 export const Socialicons = (params) => {
   return (
-    <div className="stick_follow_icon">
+    <div className="sidebar">
       <ul>
         {socialLinks.stackOverflow && (
           <li>
@@ -32,7 +34,15 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
+                {socialLinks.resume && (
+          <li>
+            <a href={socialLinks.resume}>
+              <IoIosDocument />
+            </a>
+          </li>
+        )}
       </ul>
+
       <p>Connect With Me!</p>
     </div>
   );
