@@ -5,6 +5,17 @@ import './projects.css';
 const Projects = () => {
   return (
     <div className="projects-section" id="Projects">
+
+<div className="project-card">
+        <img src="/vgh.jpg" alt="Project 2" />
+        <h2>Video Game Hub</h2>
+        <p>
+          Video Game Hub connects you with friends and other gamers. Join now to explore your new favorite game hub. </p>
+        <div className="project-buttons">
+          <a href="https://github.com/HenegarCodes/video-game-hub" className="github-button">GitHub</a>
+          <a href="https://video-game-hub.onrender.com/" className="deployed-button">Deployed</a>
+        </div>
+      </div>
       <div className="project-card">
         <img src="/BudgetBuddy.jpg" alt="Project 1" />
         <h2>Budget Buddy</h2>
@@ -13,17 +24,6 @@ const Projects = () => {
         <div className="project-buttons">
           <a href="https://github.com/HenegarCodes/budget-tracker-team-5" className="github-button">GitHub</a>
           <a href="https://app-budget-buddy-17170e451f60.herokuapp.com/" className="deployed-button">Deployed</a>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <img src="/PasswordGenerator.jpg" alt="Project 2" />
-        <h2>Password Generator</h2>
-        <p>
-          Password Generator enables users to quickly create unique and secure passwords with various customization options, ensuring a straightforward and secure password creation process. </p>
-        <div className="project-buttons">
-          <a href="https://github.com/HenegarCodes/passwordGenerator" className="github-button">GitHub</a>
-          <a href="https://henegarcodes.github.io/passwordGenerator/" className="deployed-button">Deployed</a>
         </div>
       </div>
 
