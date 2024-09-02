@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickDoc Wireframes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .wireframe {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            width: 300px;
+            height: 500px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .header, .footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #eee;
+        }
+        .content {
+            flex: 1;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .button, .input, .list-item, .profile, .call-options {
+            width: 80%;
+            height: 40px;
+            margin: 10px 0;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+        .call-options {
+            height: 50px;
+        }
+        .search-bar {
+            width: 80%;
+            height: 30px;
+            margin: 10px 0;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Home Screen Wireframe -->
+    <div class="wireframe">
+        <div class="header">QuickDoc Home</div>
+        <div class="content">
+            <div class="search-bar">Search Bar</div>
+            <div class="button">New Consultation</div>
+            <div class="button">My Doctors</div>
+            <div class="button">Medical Records</div>
+            <div class="button">Prescriptions</div>
+        </div>
+        <div class="footer">Navigation</div>
+    </div>
+
+    <!-- New Consultation Screen Wireframe -->
+    <div class="wireframe">
+        <div class="header">New Consultation</div>
+        <div class="content">
+            <div class="list-item">Doctor 1 (Available)</div>
+            <div class="list-item">Doctor 2 (Available)</div>
+            <div class="list-item">Doctor 3 (Available)</div>
+            <div class="list-item">Doctor 4 (Available)</div>
+        </div>
+        <div class="footer">Navigation</div>
+    </div>
+
+    <!-- Consultation Screen Wireframe -->
+    <div class="wireframe">
+        <div class="header">Consultation</div>
+        <div class="content">
+            <div class="profile">Doctor Profile</div>
+            <div class="call-options">Video Call</div>
+            <div class="call-options">Chat</div>
+            <div class="call-options">Voice Call</div>
+        </div>
+        <div class="footer">End Call</div>
+    </div>
+
+    <!-- Medical Records Screen Wireframe -->
+    <div class="wireframe">
+        <div class="header">Medical Records</div>
+        <div class="content">
+            <div class="list-item">Upload Records</div>
+            <div class="list-item">View Records</div>
+        </div>
+        <div class="footer">Navigation</div>
+    </div>
+
+    <!-- Prescription Screen Wireframe -->
+    <div class="wireframe">
+        <div class="header">Prescriptions</div>
+        <div class="content">
+            <div class="list-item">Active Prescription 1</div>
+            <div class="list-item">Active Prescription 2</div>
+            <div class="list-item">Request Refill</div>
+            <div class="list-item">Request Delivery</div>
+        </div>
+        <div class="footer">Navigation</div>
+    </div>
+
+</body>
+</html>
