@@ -6,15 +6,6 @@ const Projects = () => {
   return (
     <div className="projects-section" id="Projects">
 
-<div className="project-card">
-<img src="/FF.jpg" alt="Project 6" />
-        <h2>Freight Flow</h2>
-        <p>Freight Flow is a routing and trip-planning application designed specifically for freight trucks.</p>
-        <div className="project-buttons">
-          <a href="https://github.com/HenegarCodes/Freight-Flow" className="github-button">GitHub</a>
-          <a href="https://freight-flow.onrender.com/" className="deployed-button">Deployed</a>
-        </div>
-        </div>
 
 <div className="project-card">
         <img src="/vgh.jpg" alt="Project 2" />
@@ -68,6 +59,16 @@ const Projects = () => {
           <a href="https://henegarcodes.github.io/5-Day-Weather-App/" className="deployed-button">Deployed</a>
         </div>
       </div>
+      
+      <div className="project-card">
+<img src="/FF.jpg" alt="Project 6" />
+        <h2>Freight Flow</h2>
+        <p>Freight Flow is a routing and trip-planning application designed specifically for freight trucks.</p>
+        <div className="project-buttons">
+          <a href="https://github.com/HenegarCodes/Freight-Flow" className="github-button">GitHub</a>
+          <a href="https://freight-flow.onrender.com/" className="deployed-button">Deployed</a>
+        </div>
+        </div>
 
      
     </div>
